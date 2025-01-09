@@ -25,10 +25,11 @@ SECRET_KEY = '*n*f0zqlu+cgn&m*sd3^qkz9b=nw6db(tfo$156o9ag-%2f_eq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-CRISPY_TEMPLATE_PACK = "bootstrap4"
-
 ALLOWED_HOSTS = ['twitter-clone-ikfj.onrender.com', 'localhost', '127.0.0.1']
 
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+
+CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 # Application definition
 
@@ -43,7 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'crispy_bootstrap4'
+    'crispy_bootstrap5'
 ]
 
 MIDDLEWARE = [

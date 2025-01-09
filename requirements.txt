@@ -13,6 +13,7 @@ distlib
 distro
 dj-database-url
 Django
+crispy-bootstrap5
 django-crispy-forms
 django-heroku
 Eel
@@ -53,4 +54,3 @@ whitenoise
 zope.event
 zope.interface
 djangorestframework
-crispy-forms
