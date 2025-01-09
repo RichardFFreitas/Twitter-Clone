@@ -53,3 +53,4 @@ whitenoise
 zope.event
 zope.interface
 djangorestframework
+crispy-forms
